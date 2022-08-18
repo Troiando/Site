@@ -1,0 +1,137 @@
+body {
+	font-family: Arial;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+@keyframes slide {
+
+	0% {
+		left: 0px
+	}
+
+	20% {
+		left: 0px
+	}
+
+	30% {
+		left: -1000px
+	}
+
+	50% {
+		left: -1000px;
+	}
+
+	60% {
+		left: -2000px
+	}
+
+	90% {
+		left: -2000px
+	}
+
+	100% {
+		left: 0px
+	}
+
+}
+
+.montar {
+	top: -3.5px;
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url("/imagemgeral/fundoPreto-1.png");
+	border-top: 0.1px solid rgba(255, 255, 255, 0.253);
+}
+
+iframe {
+	margin: 55px 0;
+	box-shadow: 5px 5px 25px #22222252;
+}
+
+:target {
+	scroll-margin-top: 7.5em;
+}
+
+body {
+	font-family: 'calibri';
+}
+
+.ancor-montar {
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+}
+
+.ancor-montar:hover {
+	transition: 0.5s;
+	border-radius: 5px;
+	color: #ddff00;
+	background-color: rgba(255, 255, 0, 0.041);
+}
+
+
+@media screen and (max-width:480px) {
+
+	.caixa,
+	.banner {
+		width: auto;
+	}
+
+	.logo,
+	header {
+		width: 100%;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.titulo-secundario {
+		font-size: 1.5em;
+	}
+
+	header {
+		width: 256%;
+		height: 100%;
+	}
+
+	.header-ancora {
+		display: flex;
+		justify-content: center;
+	}
+
+	.montar {
+		width: 256%;
+	}
+
+	footer {
+		width: 256%;
+	}
+
+	.ancor-menu {
+		font-size: 32px;
+	}
+
+	.tamanho-logo {
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+
+	.fundo-carrosel {
+		width: 256%;
+	}
+
+
+	header{
+		height: 240px;
+	}
+}
