@@ -1,11 +1,13 @@
 *{
 	margin: 0;
 	padding: 0;
-
 }
+
+
 .nome {
 	font-style: italic;
 	font-size: 100px;
+	
 	position:absolute;
 	margin: 0;
 	top: 40%;
@@ -18,18 +20,16 @@
 	height: 1920px;
 	width: 1080px;
 	color: solid rgb(0, 0, 0);
-	
-
-
 }
-
-.telafundo {
-	width: 1920px;
-	height: 1080px;
-	background-color: orangered;
-	position:absolute;
-	
-    
-  }
  
+  .telafundo {
+	display: block;
+	position:absolute;
+	height:auto;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	background-color: green;
+  }
   
