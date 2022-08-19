@@ -1,5 +1,5 @@
 body {
-	font-family: Arial;
+	font-family: Times New Roman;
 }
 
 html {
@@ -39,41 +39,56 @@ html {
 
 }
 
-.montar {
-	top: -3.5px;
-	position: relative;
-	width: 100%;
-	height: 300px;
-	background: url("/imagemgeral/fundoPreto-1.png");
-	border-top: 0.1px solid rgba(255, 255, 255, 0.253);
+main{
+	background-color: rgb(235, 235, 235);
 }
 
-iframe {
-	margin: 55px 0;
-	box-shadow: 5px 5px 25px #22222252;
+header {
+	position: sticky;
+	top: 0;
+	width: auto;
+	height: 100px;
+	background: #030303;
+	padding-top: 20px;
+	border-bottom: 0.1px solid rgba(85, 85, 85, 0.116);
+	z-index: 3;
+}
+
+.caixa {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 50px
 }
 
 :target {
 	scroll-margin-top: 7.5em;
 }
 
-body {
-	font-family: 'calibri';
+.tamanho-logo {
+	width: 200px;
+	height: 80px;
+	margin-left: 5%;
+
 }
 
-.ancor-montar {
-	text-decoration: none;
-	color: white;
-	font-size: 24px;
+footer {
+	position: absolute;
+	width: 100%;
+	margin-top: -3.5px;
+	text-align: center;
+	background: url("/imagemgeral/fundoPreto-1.png");
+	padding: 40px 0;
+
 }
 
-.ancor-montar:hover {
-	transition: 0.5s;
-	border-radius: 5px;
-	color: #ddff00;
-	background-color: rgba(255, 255, 0, 0.041);
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0 0;
 }
 
+/* Atualiza tela */
 
 @media screen and (max-width:480px) {
 
@@ -95,22 +110,9 @@ body {
 		position: static;
 	}
 
-	.titulo-secundario {
-		font-size: 1.5em;
-	}
-
 	header {
 		width: 256%;
 		height: 100%;
-	}
-
-	.header-ancora {
-		display: flex;
-		justify-content: center;
-	}
-
-	.montar {
-		width: 256%;
 	}
 
 	footer {
@@ -125,11 +127,6 @@ body {
 		margin-left: 0;
 		margin-bottom: 20px;
 	}
-
-	.fundo-carrosel {
-		width: 256%;
-	}
-
 
 	header{
 		height: 240px;
