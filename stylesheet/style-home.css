@@ -17,8 +17,8 @@
 .caixa{
 	height: 1920px;
 	width: 1080px;
-	color: solid red;
-	border: 10px black;	
+	color: solid rgb(0, 0, 0);
+	
 
 
 }
@@ -26,7 +26,9 @@
 .telafundo {
 	width: 1920px;
 	height: 1080px;
-	background-image: url(/imagemgeral/tela.png);
+	background-color: orangered;
+	position:absolute;
+	
     
   }
  
