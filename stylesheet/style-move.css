@@ -1,0 +1,36 @@
+@keyframes animacao {
+    from {background-color: red;}
+    to {background-color: blue;}
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linha{
+    width: 1980px;
+    height: 2px;
+    background-color: red;
+    animation-name: anima;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.carrosel{
+    width: 300px;
+    height: 160px;
+    outline: 3px solid rgb(247, 247, 247);
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0);
+    overflow: hidden;
+}
+
+.carrosel ul{
+    display: flex;
+    list-style: nome;
+    width: 1200px;
+    height: 250px;
+}
