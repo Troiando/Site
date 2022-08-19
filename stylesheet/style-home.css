@@ -1,134 +1,33 @@
-body {
-	font-family: Arial;
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.nome {
+	font-style: italic;
+	font-size: 100px;
+	position:absolute;
+	margin: 0;
+	top: 40%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%,50%)
 }
 
-html {
-	scroll-behavior: smooth;
-}
+.caixa{
+	height: 1920px;
+	width: 1080px;
+	color: solid red;
+	border: 10px black;	
 
-
-@keyframes slide {
-
-	0% {
-		left: 0px
-	}
-
-	20% {
-		left: 0px
-	}
-
-	30% {
-		left: -1000px
-	}
-
-	50% {
-		left: -1000px;
-	}
-
-	60% {
-		left: -2000px
-	}
-
-	90% {
-		left: -2000px
-	}
-
-	100% {
-		left: 0px
-	}
 
 }
 
-main{
-	background-color: rgb(235, 235, 235);
-}
-
-header {
-	position: sticky;
-	top: 0;
-	width: auto;
-	height: 100px;
-	background: #030303;
-	padding-top: 20px;
-	border-bottom: 0.1px solid rgba(85, 85, 85, 0.116);
-	z-index: 3;
-}
-
-.caixa {
-	position: relative;
-	width: 100%;
-	margin: 0 auto;
-	padding-bottom: 50px
-}
-
-:target {
-	scroll-margin-top: 7.5em;
-}
-
-.tamanho-logo {
-	width: 200px;
-	height: 80px;
-	margin-left: 5%;
-
-}
-
-footer {
-	position: absolute;
-	width: 100%;
-	margin-top: -3.5px;
-	text-align: center;
-	background: url("/imagemgeral/fundoPreto-1.png");
-	padding: 40px 0;
-
-}
-
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0 0;
-}
-
-/* Atualiza tela */
-
-@media screen and (max-width:480px) {
-
-	.caixa,
-	.banner {
-		width: auto;
-	}
-
-	.logo,
-	header {
-		width: 100%;
-	}
-
-	h1 {
-		text-align: center;
-	}
-
-	nav {
-		position: static;
-	}
-
-	header {
-		width: 256%;
-		height: 100%;
-	}
-
-	footer {
-		width: 256%;
-	}
-
-	.ancor-menu {
-		font-size: 32px;
-	}
-
-	.tamanho-logo {
-		margin-left: 0;
-		margin-bottom: 20px;
-	}
-
-	header{
-		height: 240px;
-	}
-}
+.telafundo {
+	width: 1920px;
+	height: 1080px;
+	background-image: url(/imagemgeral/tela.png);
+    
+  }
+ 
+  
