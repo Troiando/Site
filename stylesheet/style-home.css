@@ -3,25 +3,17 @@
 	padding: 0;
 }
 
-
-.nome {
-	font-style: italic;
-	font-size: 100px;
-	
-	position:absolute;
-	margin: 0;
-	top: 40%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%,50%)
+.logo {
+margin-top: -90px;
 }
 
-.caixa{
-	height: 1920px;
-	width: 1080px;
-	color: solid rgb(0, 0, 0);
+ img {
+    max-width: 350px;
+    max-height:300px;
+    height: auto;
+	width: auto;
 }
- 
+
   .telafundo {
 	display: block;
 	position:absolute;
@@ -30,6 +22,31 @@
 	top:0;
 	left:0;
 	right:0;
-	background-color: green;
+	background-color: rgb(146, 144, 17);
   }
   
+  .cabeca{
+	display: block;
+	position:absolute;
+	height: 120px;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	background-color: rgb(119, 117, 13);
+  }
+  
+ 
+  /* Vai ser usado para inserir o texto 
+
+  .inserirtext {
+	font-style: italic;
+	font-size: 20px;
+	position:absolute;
+	margin: 0;
+	top: 5%;
+	left: 10%;
+	margin-right: -50%;
+	transform: translate(-50%,50%)
+	
+}
