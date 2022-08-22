@@ -2,14 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
-
-img {
-    max-width: 350px;
-    max-height:300px;
-    height: auto;
+video{
+	position:fixed;
+	height:auto;
+	right:0;
+	min-width: 100%;
+	min-height: 100%;
 	width: auto;
-}
+	height: auto;
 
+}
 
 h2 {
 	font-size: 5em;
@@ -42,11 +44,6 @@ h2 {
 	}
 }
 
-
-
-
-
-
 .logo {
 	margin-top: -90px;
 	}
@@ -69,10 +66,10 @@ h2 {
 	background-color: rgb(146, 144, 17);
     }
 
-  .cabeca{
+  .meio{
 	display: block;
-	position:absolute;
-	height: 120px;
+	position:fixed;
+	height: 60px;
 	bottom:0;
 	top:40%;
 	left:0;
@@ -82,10 +79,10 @@ h2 {
 
   .inserirTitulo {
 	font-style: italic;
-	font-size: 15px;
+	font-size: 8px;
 	position:absolute;
 	margin: 0;
-	top: -20%;
+	top: -25%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%,50%)
