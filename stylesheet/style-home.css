@@ -10,6 +10,43 @@ img {
 	width: auto;
 }
 
+
+h2 {
+	font-size: 5em;
+	font-family: serif;
+	color: #14130f;
+	text-align: center;
+	animation: animate
+		3.0s linear infinite;
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+	}
+
+	25%{
+		opacity: 0.7;
+	}
+
+	50% {
+		opacity: 1.0;
+	}
+
+	75%{
+		opacity: 0.7;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+
+
+
+
+
 .logo {
 	margin-top: -90px;
 	}
@@ -37,10 +74,10 @@ img {
 	position:absolute;
 	height: 120px;
 	bottom:0;
-	top:0;
+	top:40%;
 	left:0;
 	right:0;
-	background-color: rgb(119, 117, 13);
+	background-color: rgb(231, 230, 227);
     }
 
   .inserirTitulo {
@@ -48,8 +85,8 @@ img {
 	font-size: 15px;
 	position:absolute;
 	margin: 0;
-	top: 15%;
-	left: 70%;
+	top: -20%;
+	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%,50%)
     }
