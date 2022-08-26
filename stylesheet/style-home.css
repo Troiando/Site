@@ -2,19 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-video{
-	position:fixed;
-	height:auto;
-	right:0;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -100;
-	background-color: aliceblue;
-	background-size: cover;
-
-}
 
 h2 {
 	font-size: 5em;
@@ -60,9 +47,19 @@ h2 {
 
     }
 
+	.planodefundo {
+		position:fixed;
+		height:auto;
+		right:0;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -100;
+		background-color: aliceblue;
+		background-size: cover;
 
-
-
+	}
 
 	.cabeca {
 		display: block;
