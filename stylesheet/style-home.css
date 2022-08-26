@@ -10,6 +10,9 @@ video{
 	min-height: 100%;
 	width: auto;
 	height: auto;
+	z-index: -100;
+	background-color: aliceblue;
+	background-size: cover;
 
 }
 
@@ -21,6 +24,8 @@ h2 {
 	animation: animate
 		3.0s linear infinite;
 }
+
+
 
 @keyframes animate {
 	0% {
@@ -44,48 +49,52 @@ h2 {
 	}
 }
 
-.logo {
-	margin-top: -90px;
+    .logo {
+		margin-top: -90px;
 	}
 
-.perfil {
-	position: absolute;
-	left: 84%;
-	margin-top: -305px;
+    .perfil {
+		position: absolute;
+		left: 84%;
+		margin-top: -305px;
 
     }
 
-  .telafundo {
-	display: block;
-	position:absolute;
-	height:auto;
-	bottom:0;
-	top:0;
-	left:0;
-	right:0;
-	background-color: rgb(146, 144, 17);
+
+
+
+
+	.cabeca {
+		display: block;
+		position:fixed;
+		height: 60px;
+		bottom:0;
+		top:0%;
+		left:0;
+		right:0;
+		background-color: rgb(231, 230, 227);
+	}
+
+    .meio{
+		display: block;
+		position:fixed;
+		height: 60px;
+		bottom:0;
+		top:40%;
+		left:0;
+		right:0;
+		background-color: rgb(231, 230, 227)
     }
 
-  .meio{
-	display: block;
-	position:fixed;
-	height: 60px;
-	bottom:0;
-	top:40%;
-	left:0;
-	right:0;
-	background-color: rgb(231, 230, 227);
-    }
-
-  .inserirTitulo {
-	font-style: italic;
-	font-size: 8px;
-	position:absolute;
-	margin: 0;
-	top: -25%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%,50%)
+	.inserirTitulo {
+		font-style: italic;
+		font-size: 8px;
+		position:absolute;
+		margin: 0;
+		top: -25%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%,50%)
     }
 
 
