@@ -48,6 +48,7 @@ h2 {
     }
 
 	.planodefundo {
+		display: block;
 		position:fixed;
 		height:auto;
 		right:0;
@@ -57,14 +58,13 @@ h2 {
 		height: auto;
 		z-index: -100;
 		background-color: aliceblue;
-		background-size: cover;
 
 	}
 
 	.cabeca {
 		display: block;
 		position:fixed;
-		height: 60px;
+		height: 100px;
 		bottom:0;
 		top:0%;
 		left:0;
